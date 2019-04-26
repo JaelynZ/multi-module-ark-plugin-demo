@@ -11,9 +11,6 @@
     <artifactId>user</artifactId>
     <version>1.0.0</version>
 
-    <properties>
-        <java.version>1.8</java.version>
-    </properties>
 
     <dependencies>
         <dependency>
@@ -39,7 +36,7 @@
             <plugin>
                 <groupId>com.alipay.sofa</groupId>
                 <artifactId>sofa-ark-plugin-maven-plugin</artifactId>
-                <version>0.2.0</version>
+                <version>${sofa.ark.version}</version>
                 <executions>
                     <execution>
                         <id>default-cli</id>
